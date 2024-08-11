@@ -72,7 +72,7 @@ This project provides guidance on exporting the YOLOv10 model from PyTorch to ON
 
 1. Build the Client Source Code:
     ```bash
-    cd /yolov10-trion-jetson
+    cd yolov10-triton-jetson
     mkdir build
     cd build
     cmake .. && make 
