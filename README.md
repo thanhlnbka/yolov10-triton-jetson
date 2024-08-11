@@ -66,7 +66,7 @@ This project provides guidance on exporting the YOLOv10 model from PyTorch to ON
     
 2. Start Triton
     ```bash
-    tritonserver --model-repository=/servers/model_repository  --backend-directory=/work/tritonserver/backends --log-verbose=1
+    tritonserver --model-repository=/servers/model_repository  --backend-directory=/servers/tritonserver/backends --log-verbose=1
      ```
 # II. Set Up the Client to Communicate with Triton
 
