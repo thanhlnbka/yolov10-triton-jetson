@@ -20,7 +20,7 @@ This project provides guidance on exporting the YOLOv10 model from PyTorch to ON
     cp -r tritonserver yolov10-triton-jetson/servers/.
     ```
 
-## I. Set Up the Triton Server on Jetson
+# I. Set Up the Triton Server on Jetson
 ### Export YOLOv10 Model from PyTorch to ONNX
 
 1. **Build env-yolov10**:
