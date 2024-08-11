@@ -70,19 +70,24 @@ This project provides guidance on exporting the YOLOv10 model from PyTorch to ON
      ```
 # II. Set Up the Client to Communicate with Triton
 
-1. Build the Client Source Code:
+1. Required Environment for Building Source Code
+    * OpenCV 
+    * RapidJSON
+    * CURL
+
+2. Build the Client Source Code:
     ```bash
     cd yolov10-triton-jetson
     mkdir build
     cd build
     cmake .. && make 
     ```
-2. Test the Client:
+3. Test the Client:
     ```bash
     ./triton-client <path_to_image>
     ```
 
-3. Demo Result:
+4. Demo Result:
 
     ![all_about_people_cover.jpeg](./images/processed_image.jpg)
 
