@@ -95,5 +95,6 @@ This project provides guidance on exporting the YOLOv10 model from PyTorch to ON
 
 * https://github.com/triton-inference-server/server
 * https://github.com/THU-MIG/yolov10
+* https://github.com/triton-inference-server/client
     
     
